@@ -232,7 +232,7 @@ header{
     font-size: 0.5rem;
 }
 
-/*--------Events--------*/
+/*-------------------------------------------Events-----------------------------------*/
 
 .tabs{
 display: flex;
@@ -248,11 +248,13 @@ cursor: pointer;
 display: none;   
 }
 .tabs__content{
+display: grid;
 order: 1;
 width: 100%;
 line-height: 0.9rem;
 display: none;
 }
+
 .tabs__radio:checked+.tabs__label{
 font-weight: bold;
 color: #ddd;
@@ -275,6 +277,7 @@ display: initial;
 
 
 .event{
+   
     background: var(--color-bg1);
     text-align: center;
     border: 1px solid transparent;
@@ -295,7 +298,7 @@ display: initial;
     font-size: 0.9rem;
 }
 
-/*-----------Faqs---------*/
+/*----------------------------------------Faqs---------------------------------*/
 
 .faqs{
     background: var(--color-bg1);
@@ -347,7 +350,7 @@ display: initial;
     display: block;
 }
 
-/*-----------Team Slides---------*/
+/*--------------------------------------Team Slides-------------------------*/
 
 .teams__container{
     overflow: hidden;

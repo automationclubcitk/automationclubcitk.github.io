@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+
+.container__gallery{
+    margin-top: 10rem;
+    margin-left: 4rem;
+    width: 1400px;
+    columns: 4;
+    column-gap: 16px;
+    margin-bottom: 5rem;
+}
+
+.container__gallery .box{
+    width: 100%;
+    margin-bottom: 10px;
+    break-inside: avoid;
+
+}
+
+.container__gallery .box img{
+    max-width: 120%;
+    border-radius: 10px;
+}

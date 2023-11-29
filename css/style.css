@@ -76,7 +76,8 @@ img{
 
 .btn{
     display: inline-block;
-    background:var(--color-black);
+    background:var(--color-white);
+    color: var(--color-black);
     padding: 1rem 2rem;
     border: 1px solid transparent;
     font-weight: 500;
@@ -148,8 +149,8 @@ header{
     position: relative;
     top: 5rem;
     overflow: hidden;
-    height: 100vh;
-    margin-bottom: 5.2rem;    
+    height: 70vh;
+    margin-bottom: 5rem;    
     
 }
 
@@ -157,18 +158,14 @@ header{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    gap: 6rem;
-    height: 95%;
-    bottom: 0;
+    gap: 5rem;
+    height: 100%;
+    
 }
 
-.header__left{
-    margin: 1rem 0 0 1.4rem;
-
-}
 
 .header__left p{
-    margin-bottom: 1rem;
+    margin: 1rem 0 2.4rem;
 
 }
 
@@ -187,15 +184,15 @@ header{
 
 .categories__container{
     display: grid;
-    grid-template-columns: 55% 45%;
-    gap: 4rem;
+    grid-template-columns: 40% 60%;
+
 }
-/*.categories__left{
+.categories__left{
     margin-right: 4rem;
-}*/
+}
 
 .categories__left p{
-    margin-left: 1rem 0 3rem;
+    margin: 1rem 0 3rem;
     
 }
 
@@ -203,7 +200,7 @@ header{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.2rem;
-    line-height: 1.5rem;
+    
 }
 
 .category{
@@ -219,7 +216,7 @@ header{
 }
 
 .category__icon{
-    background: var(--color-primary);
+    
     padding: 0.7rem;
     border-radius: 0.9rem;
 }
@@ -229,7 +226,7 @@ header{
 }
 
 .category p{
-    font-size: 0.5rem;
+    font-size: 0.85rem;
 }
 
 /*-------------------------------------------Events-----------------------------------*/
@@ -463,14 +460,12 @@ display: initial;
 
 
 
-/*-----------Footer section---------*/
+/*----========================-------Footer section-----===============================----*/
 
 footer{
-    background:var(--color-bg2) ;
+    background:var(--color-bg1) ;
     padding-top: 5rem;
     font-size: 0.9rem;
-
-    padding-bottom: 5rem;
 }
 
 .footer__container{
@@ -507,22 +502,16 @@ footer ul li a:hover{
     line-height: 1.5rem;
 }
 
-.footer__4 div{
-    line-height: 1.5rem;
-}
+
 
 
 /*---------------Designer section-------*/
-.footer__owner{
+.footer__copyright{
     text-align: center;
-    margin-top: 0;
-    padding: 1rem 0;
+    margin-top: 4rem;
+    padding: 1.2rem 0;
     border-top: 1px solid var(--color-bg2);
     
-}
-
-.footer__owner h4{
-    font-size: small;
 }
 
 /*--------------------Media Quries (tablet)--------------*/
@@ -657,6 +646,7 @@ nav button#close-menu-btn{
 grid-template-columns: 1fr 1fr;
 }
 }
+
 /*----------=========-------Media Quiries (mobile)-------===========---------*/
 @media screen and (max-width: 600px){
     .container{

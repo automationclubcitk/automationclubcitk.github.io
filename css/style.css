@@ -169,7 +169,7 @@ header{
 
 }
 
-/*--------------------Domain-----------------*/
+/*------------------------------Domain-----------------------------*/
 
 .categories{
     background: var(--color-bg1);
@@ -223,6 +223,7 @@ header{
 
 .category h5{
     margin: 2rem 0 1rem;
+    justify-content: center;
 }
 
 .category p{
@@ -347,7 +348,7 @@ display: initial;
     display: block;
 }
 
-/*--------------------------------------Team Slides-------------------------*/
+/*--------------------------------------Team Slides--------------------------------*/
 
 .teams__container{
     overflow: hidden;
@@ -385,7 +386,7 @@ display: initial;
     padding: 2rem;
     margin-top:3rem ;
 }
-/*-----------Meet Our Team section---------*/
+/*---------------------------------Meet Our Team section--------------------------*/
 
 .team{
 
@@ -661,6 +662,13 @@ header{
     height: 100vh;
     text-align: center;
     margin-top: 0;
+}
+
+.header__container{
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin-top: 0;
+}
 }
 
 .header__left p{
